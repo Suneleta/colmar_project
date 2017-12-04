@@ -1,0 +1,600 @@
+html {
+  font-size: 16px;
+
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color:#99ffcc;
+  font-family: "Lora", serif;
+  width: 100%;
+
+}
+
+header {
+  display:flex;
+  align-items: center;
+  width: 98%;
+  height: 65px;
+  padding: 0 24px;
+
+  justify-content: space-between;
+  border-bottom: 1px solid #003249;
+
+  }
+  .holder-logo {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .holder-logo img {
+
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .logo1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+  }
+  .logo2 {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-size: 1.5rem;
+    }
+  #bigscreen {
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  #bigscreen a {
+    margin-left: 30px;
+    font-size: 1.5rem;
+
+  }
+  a {
+    color:#003249;
+    text-decoration: none;
+
+  }
+  #mobile {
+    display: none;
+  }
+  #learn {
+    background-color: #009900;
+    display: flex;
+    padding: 32px 24px;
+  }
+div {
+  display: block;
+}
+
+  .holder-img-header {
+    width: 60%;
+    height: auto;
+
+  }
+  .img-header {
+    width: 100%;
+    height: auto;
+  }
+  .holder-learn {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin-left: 40px;
+      }
+#learn h1 {
+  font-family: "Lora";
+  font-size: 2rem;
+  line-height: 1.8rem;
+}
+#learn h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+button {
+  background-color: #003249;
+  color: #ccdbdc;
+  font-family: "Lora", sans-serif;;
+  font-size: 1.2rem;
+  padding: 8px 0;
+  border: 1px solid #003249;
+}
+#practice {
+  display:flex;
+}
+.holder-practice-main {
+  padding: 32px 24px;
+
+}
+.holder-img-practice {
+  width:100%;
+  height: auto;
+}
+.img-practice {
+  width: 100%;
+  height: auto;
+}
+#practice h1 {
+  font-family: "Lora";
+  font-size: 2rem;
+  line-height: 1.8rem;
+  margin: 32px 0 24px 0;
+  }
+  .quoted {
+    margin: 20px 0;
+    font-weight: bold;
+  }
+
+.holder-campus-info {
+  min-width:423px;
+}
+.campus-info-single {
+  display:flex;
+  min-height: 168px;
+
+}
+.campus-info-single-green {
+  display: flex;
+  min-height: 168px;
+  background-color: #009900;
+}
+
+.holder-img-campus-info {
+  max-width: 33%;
+  height: auto;
+  margin: 16px;
+}
+.img-campus-info {
+  width: 100%;
+  height: auto;
+}
+.img-campus-info-mobile {
+  display: none;
+}
+.img-campus-info-mobile-green {
+  display: none;
+}
+.campus-info-text {
+  display: flex;
+  flex-flow:wrap column;
+  justify-content: center;
+  margin-right: 8px;
+
+}
+
+#practice h3 {
+  font-family: "Lora" serif;
+  font-size: 1.5rem;
+}
+#practice h4 {
+  font-family: "Lora" serif;
+  font-size: 1rem;
+  margin: 8px 0;
+}
+#practice a {
+  text-decoration: underline;
+}
+a {
+  color: #003249;
+}
+
+.blue {
+  background-color: #007ea7;
+}
+
+.holder-img-campus-info {
+  max-width: 33%;
+  height: auto;
+  margin: 16px;
+}
+.holder-img-header {
+  width: 60%;
+  height: auto;
+}
+.holder-course {
+  background-color: #99ff99;
+  width: 30%;
+  margin: 8px 16px;
+  padding: 0;
+}
+
+.img-campus-info {
+  width:100%;
+  height: auto;
+}
+.img-campus-info-mobile {
+  display: none;
+}
+.campus-info-text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+.campus-info-single {
+  display: flex;
+  min-height: 168px;
+  border-bottom: 1px solid #009922;
+}
+.holder-learn {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-left: 40px;
+}
+#learning {
+  background-color: #009911;
+
+  padding-bottom: 16px;
+}
+#learning h1 {
+  font-family: "Lora";
+  font-size: 2rem;
+  padding: 32px 0 8px 0;
+  text-align: center;
+}
+.holder-courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+  align-items: center;
+}
+#practice h4 {
+  font-family: "Lora", serif;
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+ h4 {
+   display: block;
+   font-weight: bold;
+ }
+.holder-course {
+  background-color: #ccdbdc;
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+
+}
+.holder-course-img {
+  width: 100%;
+  height: auto;
+}
+.course-img {
+  width: 100%;
+  height: auto;
+}
+.holder-course-txt {
+  padding: 16px 16px;
+}
+#learning h2 {
+  font-family: "Lora" ,serif;
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+#learning h3 {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  margin: 8px 0;
+}
+#thesis h1 {
+  font-family: "Lora";
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+}
+.holder-thesis {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+#learning p {
+  font-family: "Lora";
+  font-weight: normal;
+}
+.holder-vid {
+  height: auto;
+  width: 100%;
+  padding-left: 24px;
+}
+video {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+.holder-thesis-txt {
+  margin: 24px 0 32px 24px;
+}
+#thesis h3 {
+  font-family: "Lora";
+  font-size: 1.5rem;
+
+}
+#thesis h4 {
+  font-family: "Lora";
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+.holder-thesis-txt p {
+  margin-top: 16px;
+}
+.holder-thesis-info {
+  min-width: 423px;
+  margin-left: 16px;
+
+
+}
+.holder-thesis {
+  width: 100%;
+  display: flex;
+}
+.thesis-info-single {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+
+}
+#thesis h1 {
+font-family: "Lora", "serif";
+font-size: 2rem;
+padding: 32px 0;
+text-align: center;
+}
+.holder-thesis-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+
+}
+.thesis-img {
+  width: 100%;
+  height: auto;
+
+}
+.thesis-info-txt {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+  margin: 10px;
+  padding: 0;
+}
+section {
+  display: block;
+}
+#thesis h3 {
+  font-family: "Lora";
+  font-size: 1.5rem;
+}
+#thesis h4 {
+  font-family: "Lora";
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+ h4, h3 {
+   display: block;
+   font-weight: bold;
+ }
+footer {
+  background-color: #008822;
+  color: #003249;
+  padding: 0 24px;
+  border-top: 2px solid #003249;
+  display: flex;
+  justify-content: space-between;
+}
+.copy {
+  display: block;
+  padding: 16px 0;
+}
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 710px)
+{
+.holder-logo {
+    display: none;}
+    }
+@media only screen and (max-width:710px) {
+  .links {
+    display: none;
+  }
+}
+@media only screen and (max-width: 710px) {
+  #thesis {
+    padding-bottom: 24px;
+  }
+}
+  @media only screen and (max-width: 710px) {
+    footer {
+      justify-content: flex-start;
+    }
+
+}
+@media only screen and (max-width: 710px) {
+  .holder-thesis-info {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 710px){
+  .holder-thesis-info {
+    display: none;
+  }
+}
+@media only screen and (max-width:710px) {
+  .holder-course-txt h3, p {
+    display: none;
+  }
+}
+@media only screen and (max-width:710px){
+  .holder-thesis-txt {
+    display: none;
+  }
+}
+@media only screen and (max-width: 710px)
+{
+.holder-vid {
+    height: auto;
+    width: 100%;
+    padding: 0;}
+  }
+@media only screen and (max-width: 710px)
+{
+#thesis {
+    padding-bottom: 24px;}}
+
+@media only screen and (max-width: 710px)
+{
+.holder-course-txt h3, p {
+    display: none;
+  }
+@media only screen and (max-width: 710px)
+{
+#learning h2 {
+    line-height: 0.5rem;}
+  }
+  @media only screen and (max-width:710px) {
+    #learning h1 {
+      font-family: "Lora", serif;
+      font-size: 2rem;
+      padding: 32px 0 8px 0;
+      text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 710px)
+{
+.holder-course-img {
+    display: none;
+  }}
+  @media only screen and (max-width: 710px){
+.course-img {
+    display: none;}}
+@media only screen and (max-width: 710px){
+.holder-course {
+    width: 100%;
+    margin: 8px 16px;
+    padding: 0;
+  }}
+
+@media only screen and (max-width: 710px)
+{
+.campus-info-text {
+    margin-left: 32px;
+    margin-bottom: 16px;
+}
+
+}
+@media only screen and (max-width: 710px)
+{
+.holder-campus-info {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:710px) {
+  #bigscreen {
+    display: none;
+  }
+}
+@media only screen and (max-width: 710px) {
+  #mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+ @media only screen and (max-width: 710) {
+   #learn {
+     padding: 0;
+     flex-wrap: wrap;
+   }
+ }
+ @media only screen and (max-width:710px) {
+   .holder-img-header {
+     width: 100%;
+     height: 180px;
+     overflow: hidden;
+   }
+ }
+
+ @media only screen and (max-width: 710px)
+{
+ .holder-learn {
+     display: flex;
+     flex-flow: wrap column;
+     justify-content: center;
+     margin: 32px 16px;
+     width: 100%;
+   }
+ }
+ @media only screen and (max-width:710px) {
+   #practice {
+     padding-bottom: 16px;
+   }
+    }
+ @media only screen and (max-width:710px){
+   .holder-practice-main {
+     display: none;
+   }
+ }
+ @media only screen and (max-width:710px) {
+   .campus-info-single {
+     flex-flow:wrap column;
+     border: 0;
+     height: auto;
+   }
+ }
+ @media only screen and (max-width:710px) {
+   .holder-img-campus-info {
+     min-width: 100%;
+     margin: 0;
+     padding: 16px;
+   }
+ }
+@media only screen and (max-width: 710px) {
+  .img-campus-info-mobile {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+  @media only screen and (max-width: 710px) {
+    .img-campus-info-mobile-green {
+      display: inline-block;
+      width: 100%;
+      height: auto;
+    }
+}
+@media only screen and (max-width:710px) {
+  .blue {
+    background-color: #ccdbdc;
+  }
+}
+ @media only screen and (max-width:710px) {
+   .img-campus-info {
+     display: none;
+   }
+ }
+ @media only screen and (max-width:710px) {
+   .holder-courses {
+     justify-content:space-around;
+     width: 100%;
+     margin: 0 auto;
+   }
+ }
+ @media only screen and (max-width: 710px) {
+   .blue {
+     background-color: #ccdbdc;
+   }
+ }
